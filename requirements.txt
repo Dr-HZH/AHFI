@@ -1,0 +1,34 @@
+# Core ML and Graph Learning Dependencies
+torch>=2.5.0
+dgl -f https://data.dgl.ai/wheels/cu121/repo.html
+torchdata==0.8.0
+pydantic>=2.0.0
+numpy>=2.0.0
+scipy>=1.13.0
+pandas>=2.2.0
+scikit-learn>=1.6.0
+networkx>=3.2.0
+
+
+# Training and Monitoring
+tensorboard>=2.19.0
+tqdm>=4.67.0
+
+# Configuration and Utilities
+pyyaml>=6.0.0
+psutil>=7.0.0
+
+# Optional: Enhanced Statistical Analysis
+statsmodels>=0.13.0
+
+# Optional: Image Processing for Visualization
+Pillow>=8.0.0
+
+# Optional: Visualization Dependencies
+matplotlib>=3.9.0
+seaborn>=0.13.0
+plotly>=5.0.0
+
+# Development and Testing (Optional)
+pytest>=6.0.0
+jupyter>=1.0.0
